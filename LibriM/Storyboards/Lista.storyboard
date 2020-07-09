@@ -24,7 +24,7 @@
                                     <constraint firstAttribute="width" constant="43" id="rOD-bd-IAo"/>
                                     <constraint firstAttribute="height" constant="43" id="uDS-ND-knJ"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="icons8-back-50.png"/>
+                                <state key="normal" image="icons8-back-50.png"/>
                                 <connections>
                                     <segue destination="zc7-pv-AF5" kind="presentation" modalTransitionStyle="crossDissolve" id="K6c-P8-BZM"/>
                                 </connections>
