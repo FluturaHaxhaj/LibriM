@@ -14,12 +14,12 @@
         <scene sceneID="4Uy-jH-rcd">
             <objects>
                 <viewController storyboardIdentifier="ListaVS" title="Lista" id="ny1-Hi-aSx" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YRM-YI-Fn7">
+                    <view key="view" contentMode="scaleToFill" id="YRM-YI-Fn7" customClass="CardView" customModule="LibriM" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L41-ip-F2a">
-                                <rect key="frame" x="0.0" y="44" width="43" height="43"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L41-ip-F2a">
+                                <rect key="frame" x="0.0" y="24" width="43" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="43" id="rOD-bd-IAo"/>
                                     <constraint firstAttribute="height" constant="43" id="uDS-ND-knJ"/>
@@ -29,13 +29,126 @@
                                     <segue destination="zc7-pv-AF5" kind="presentation" modalTransitionStyle="crossDissolve" id="K6c-P8-BZM"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hya-VV-uJA">
+                                <rect key="frame" x="16" y="75" width="343" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="AD5-g0-psW">
+                                        <rect key="frame" x="8" y="0.0" width="163" height="98"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Black Ladies, Benedikt Taschen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PMl-HD-E8G">
+                                        <rect key="frame" x="8" y="106" width="245" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prishtine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHU-JR-Lgy">
+                                        <rect key="frame" x="8" y="130" width="106" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9783822881606-us.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ajm-FW-cAb">
+                                        <rect key="frame" x="172" y="0.0" width="163" height="98"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bqz-QZ-U75">
+                                <rect key="frame" x="16" y="234" width="343" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="think_again_how_to_reason_and_argue_1546385663_1c6a7763_progressive.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iqU-Mz-xWO">
+                                        <rect key="frame" x="8" y="0.0" width="163" height="98"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Think Again, Walter Sinnot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJf-y8-cde">
+                                        <rect key="frame" x="8" y="106" width="245" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prizren" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="em5-k5-wcS">
+                                        <rect key="frame" x="8" y="130" width="106" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="39680174._SY475_.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SBl-zJ-4vH">
+                                        <rect key="frame" x="172" y="0.0" width="163" height="98"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zc1-r1-wxc">
+                                <rect key="frame" x="16" y="393" width="343" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b827df6ad8c8f8e128a46be596fb2235.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="zfv-3i-knJ">
+                                        <rect key="frame" x="8" y="0.0" width="163" height="98"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prishtine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GMO-OD-xBO">
+                                        <rect key="frame" x="8" y="130" width="106" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mindset, Carol S. Dweck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8m-ky-H3t">
+                                        <rect key="frame" x="8" y="101" width="245" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="51Sml2vtu7L.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JRK-98-2UD">
+                                        <rect key="frame" x="172" y="0.0" width="163" height="98"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x8n-Y7-eSu">
+                                <rect key="frame" x="16" y="552" width="343" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orwell-1_1600x.png" translatesAutoresizingMaskIntoConstraints="NO" id="jHy-uJ-0Uc">
+                                        <rect key="frame" x="8" y="0.0" width="163" height="98"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prishtine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cly-bK-9LO">
+                                        <rect key="frame" x="8" y="130" width="106" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Animal Farm, George Orwell" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paL-6X-OOo">
+                                        <rect key="frame" x="8" y="101" width="245" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1984-animal-farm.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6Ev-cD-7Vf">
+                                        <rect key="frame" x="172" y="0.0" width="163" height="98"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="L41-ip-F2a" firstAttribute="centerX" secondItem="YRM-YI-Fn7" secondAttribute="centerX" constant="-166" id="LW2-6h-IGp"/>
-                            <constraint firstItem="L41-ip-F2a" firstAttribute="centerY" secondItem="YRM-YI-Fn7" secondAttribute="centerY" constant="-340.5" id="Qf2-KS-gCk"/>
-                            <constraint firstItem="L41-ip-F2a" firstAttribute="centerX" secondItem="YRM-YI-Fn7" secondAttribute="centerX" constant="-166" id="UBg-P0-Dke"/>
-                            <constraint firstItem="L41-ip-F2a" firstAttribute="centerY" secondItem="YRM-YI-Fn7" secondAttribute="centerY" constant="-340.5" id="UPh-Md-ThQ"/>
+                            <constraint firstItem="L41-ip-F2a" firstAttribute="top" secondItem="YRM-YI-Fn7" secondAttribute="top" constant="24" id="3hW-ax-Qak"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FxE-8y-HF8"/>
                     </view>
@@ -54,6 +167,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1984-animal-farm.jpg" width="720" height="552"/>
+        <image name="39680174._SY475_.jpg" width="292" height="475"/>
+        <image name="51Sml2vtu7L.jpg" width="750" height="1177"/>
+        <image name="9783822881606-us.jpg" width="391" height="500"/>
+        <image name="Unknown.jpeg" width="194" height="259"/>
+        <image name="b827df6ad8c8f8e128a46be596fb2235.jpeg" width="1024" height="1024"/>
         <image name="icons8-back-50.png" width="50" height="50"/>
+        <image name="orwell-1_1600x.png" width="1600" height="1600"/>
+        <image name="think_again_how_to_reason_and_argue_1546385663_1c6a7763_progressive.jpg" width="810" height="1080"/>
     </resources>
 </document>

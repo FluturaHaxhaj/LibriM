@@ -14,6 +14,14 @@
 		6A50B65024B6559B00C208E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A50B64E24B6559B00C208E9 /* LaunchScreen.storyboard */; };
 		6A6D8AF224B6A92D00F94A43 /* Lista.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6D8AF124B6A92D00F94A43 /* Lista.storyboard */; };
 		6A6D8AF424B6AB6E00F94A43 /* ShtoLibrin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6D8AF324B6AB6E00F94A43 /* ShtoLibrin.storyboard */; };
+		6A79976B24C0E895003B3055 /* orwell-1_1600x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A79976A24C0E895003B3055 /* orwell-1_1600x.png */; };
+		6A79976D24C0E8A1003B3055 /* think_again_how_to_reason_and_argue_1546385663_1c6a7763_progressive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A79976C24C0E8A1003B3055 /* think_again_how_to_reason_and_argue_1546385663_1c6a7763_progressive.jpg */; };
+		6A79976F24C0E8A8003B3055 /* b827df6ad8c8f8e128a46be596fb2235.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A79976E24C0E8A8003B3055 /* b827df6ad8c8f8e128a46be596fb2235.jpeg */; };
+		6A79977324C0EA0D003B3055 /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A79977224C0EA0D003B3055 /* Unknown.jpeg */; };
+		6A79977724C0EC94003B3055 /* 9783822881606-us.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A79977624C0EC93003B3055 /* 9783822881606-us.jpg */; };
+		6A79977924C0EC9A003B3055 /* 39680174._SY475_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A79977824C0EC9A003B3055 /* 39680174._SY475_.jpg */; };
+		6A79977B24C0ECA3003B3055 /* 51Sml2vtu7L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A79977A24C0ECA2003B3055 /* 51Sml2vtu7L.jpg */; };
+		6A79977D24C0ECAB003B3055 /* 1984-animal-farm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A79977C24C0ECAA003B3055 /* 1984-animal-farm.jpg */; };
 		6ACD629424B74D6A00C483DF /* 107375147_272833843994700_6099924732379269589_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6ACD629324B74D6A00C483DF /* 107375147_272833843994700_6099924732379269589_n.jpg */; };
 		6ACD629624B74D7500C483DF /* books-xl.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACD629524B74D7500C483DF /* books-xl.png */; };
 		6ACD629824B74E9600C483DF /* icons8-back-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACD629724B74E9600C483DF /* icons8-back-50.png */; };
@@ -46,6 +54,14 @@
 		6A50B65124B6559B00C208E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A6D8AF124B6A92D00F94A43 /* Lista.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lista.storyboard; sourceTree = "<group>"; };
 		6A6D8AF324B6AB6E00F94A43 /* ShtoLibrin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShtoLibrin.storyboard; sourceTree = "<group>"; };
+		6A79976A24C0E895003B3055 /* orwell-1_1600x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "orwell-1_1600x.png"; path = "fotot e projektit/orwell-1_1600x.png"; sourceTree = SOURCE_ROOT; };
+		6A79976C24C0E8A1003B3055 /* think_again_how_to_reason_and_argue_1546385663_1c6a7763_progressive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = think_again_how_to_reason_and_argue_1546385663_1c6a7763_progressive.jpg; path = "fotot e projektit/think_again_how_to_reason_and_argue_1546385663_1c6a7763_progressive.jpg"; sourceTree = SOURCE_ROOT; };
+		6A79976E24C0E8A8003B3055 /* b827df6ad8c8f8e128a46be596fb2235.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = b827df6ad8c8f8e128a46be596fb2235.jpeg; path = "fotot e projektit/b827df6ad8c8f8e128a46be596fb2235.jpeg"; sourceTree = SOURCE_ROOT; };
+		6A79977224C0EA0D003B3055 /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown.jpeg; path = "fotot e projektit/Unknown.jpeg"; sourceTree = SOURCE_ROOT; };
+		6A79977624C0EC93003B3055 /* 9783822881606-us.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "9783822881606-us.jpg"; path = "fotot e projektit/9783822881606-us.jpg"; sourceTree = SOURCE_ROOT; };
+		6A79977824C0EC9A003B3055 /* 39680174._SY475_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 39680174._SY475_.jpg; path = "fotot e projektit/39680174._SY475_.jpg"; sourceTree = SOURCE_ROOT; };
+		6A79977A24C0ECA2003B3055 /* 51Sml2vtu7L.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 51Sml2vtu7L.jpg; path = "fotot e projektit/51Sml2vtu7L.jpg"; sourceTree = SOURCE_ROOT; };
+		6A79977C24C0ECAA003B3055 /* 1984-animal-farm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1984-animal-farm.jpg"; path = "fotot e projektit/1984-animal-farm.jpg"; sourceTree = SOURCE_ROOT; };
 		6ACD629324B74D6A00C483DF /* 107375147_272833843994700_6099924732379269589_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 107375147_272833843994700_6099924732379269589_n.jpg; path = "fotot e projektit/107375147_272833843994700_6099924732379269589_n.jpg"; sourceTree = SOURCE_ROOT; };
 		6ACD629524B74D7500C483DF /* books-xl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "books-xl.png"; path = "fotot e projektit/books-xl.png"; sourceTree = SOURCE_ROOT; };
 		6ACD629724B74E9600C483DF /* icons8-back-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-back-50.png"; path = "fotot e projektit/icons8-back-50.png"; sourceTree = SOURCE_ROOT; };
@@ -133,8 +149,16 @@
 			children = (
 				6ACD629524B74D7500C483DF /* books-xl.png */,
 				6ACD629724B74E9600C483DF /* icons8-back-50.png */,
+				6A79977624C0EC93003B3055 /* 9783822881606-us.jpg */,
+				6A79976C24C0E8A1003B3055 /* think_again_how_to_reason_and_argue_1546385663_1c6a7763_progressive.jpg */,
+				6A79977824C0EC9A003B3055 /* 39680174._SY475_.jpg */,
+				6A79977C24C0ECAA003B3055 /* 1984-animal-farm.jpg */,
+				6A79977A24C0ECA2003B3055 /* 51Sml2vtu7L.jpg */,
 				6ACD629924B74E9F00C483DF /* icons8-open-book-100.png */,
+				6A79977224C0EA0D003B3055 /* Unknown.jpeg */,
+				6A79976A24C0E895003B3055 /* orwell-1_1600x.png */,
 				6ACD629324B74D6A00C483DF /* 107375147_272833843994700_6099924732379269589_n.jpg */,
+				6A79976E24C0E8A8003B3055 /* b827df6ad8c8f8e128a46be596fb2235.jpeg */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -240,15 +264,23 @@
 			files = (
 				6A50B65024B6559B00C208E9 /* LaunchScreen.storyboard in Resources */,
 				6ACD629824B74E9600C483DF /* icons8-back-50.png in Resources */,
+				6A79976B24C0E895003B3055 /* orwell-1_1600x.png in Resources */,
 				6A50B64D24B6559B00C208E9 /* Assets.xcassets in Resources */,
+				6A79976F24C0E8A8003B3055 /* b827df6ad8c8f8e128a46be596fb2235.jpeg in Resources */,
 				886EF3B124BF83C8007D36D8 /* sql.sqlite in Resources */,
+				6A79977924C0EC9A003B3055 /* 39680174._SY475_.jpg in Resources */,
 				6ACD629424B74D6A00C483DF /* 107375147_272833843994700_6099924732379269589_n.jpg in Resources */,
+				6A79976D24C0E8A1003B3055 /* think_again_how_to_reason_and_argue_1546385663_1c6a7763_progressive.jpg in Resources */,
 				6A6D8AF224B6A92D00F94A43 /* Lista.storyboard in Resources */,
 				6A6D8AF424B6AB6E00F94A43 /* ShtoLibrin.storyboard in Resources */,
 				6ACD629624B74D7500C483DF /* books-xl.png in Resources */,
 				6ACD629A24B74E9F00C483DF /* icons8-open-book-100.png in Resources */,
+				6A79977724C0EC94003B3055 /* 9783822881606-us.jpg in Resources */,
 				886EF3A624BF7EC7007D36D8 /* Info.plist in Resources */,
+				6A79977D24C0ECAB003B3055 /* 1984-animal-farm.jpg in Resources */,
 				6A50B64B24B6559B00C208E9 /* Main.storyboard in Resources */,
+				6A79977B24C0ECA3003B3055 /* 51Sml2vtu7L.jpg in Resources */,
+				6A79977324C0EA0D003B3055 /* Unknown.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
