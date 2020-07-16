@@ -9,9 +9,9 @@
 import UIKit
 
 class ShtoLibrin: UIViewController ,UITableViewDelegate,UITableViewDataSource {
-   @IBOutlet weak var tblTableview: UITableView!
     var GetAllDataInfo = NSMutableArray()
 
+    @IBOutlet weak var tblTableview: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

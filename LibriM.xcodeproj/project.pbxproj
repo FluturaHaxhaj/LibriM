@@ -88,7 +88,7 @@
 		88AF428624BF8B0E0005DF19 /* InsertDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertDataViewController.swift; sourceTree = "<group>"; };
 		88AF428824BF8D290005DF19 /* Tbl_Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tbl_Info.swift; sourceTree = "<group>"; };
 		88AF428A24BF8E350005DF19 /* FMDBDatabaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDBDatabaseModel.swift; sourceTree = "<group>"; };
-		88ECE4D724BFC9EF0012EA2F /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoTableViewCell.swift; path = LibriM/InfoTableViewCell.swift; sourceTree = "<group>"; };
+		88ECE4D724BFC9EF0012EA2F /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,6 @@
 		6A50B63924B6559B00C208E9 = {
 			isa = PBXGroup;
 			children = (
-				88ECE4D724BFC9EF0012EA2F /* InfoTableViewCell.swift */,
 				886EF3B024BF83C7007D36D8 /* sql.sqlite */,
 				886EF3A724BF7FC0007D36D8 /* FMDBDatabase_Bridging-Header.h */,
 				6A620B9824B68CDD001A918D /* images */,
@@ -135,6 +134,7 @@
 				884421EC24BFA05A007274CA /* ShtoLibrin.swift */,
 				88AF428824BF8D290005DF19 /* Tbl_Info.swift */,
 				88AF428624BF8B0E0005DF19 /* InsertDataViewController.swift */,
+				88ECE4D724BFC9EF0012EA2F /* InfoTableViewCell.swift */,
 				88AF428A24BF8E350005DF19 /* FMDBDatabaseModel.swift */,
 				6A50B64724B6559B00C208E9 /* ViewController.swift */,
 				6A50B64C24B6559B00C208E9 /* Assets.xcassets */,
