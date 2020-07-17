@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ShtoLibrin: UIViewController ,UITableViewDelegate,UITableViewDataSource {
-   @IBOutlet weak var tblTableview: UITableView!
+class ShtoLibrin: UIViewController ,UITableViewDelegate,UITableViewDataSource,buttonDeleget{
+
+    @IBOutlet weak var tblTableview: UITableView!
     var GetAllDataInfo = NSMutableArray()
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,6 +27,27 @@ class ShtoLibrin: UIViewController ,UITableViewDelegate,UITableViewDataSource {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    func EditButton(sender: InfoTableViewCell) {
+        let cell = sender.tag
+        var l = Tbl_Info()
+        l = GetAllDataInfo.object(at: sender.tag) as! Tbl_Info
+        let MainStoryboard:UIStoryboard = UIStoryboard(name: "ShtoLibrin", bundle: nil)
+        let DV = MainStoryboard.instantiateViewController(withIdentifier: "EditDataViewController") as! EditDataViewController
+        DV.getId = l.Id
+        DV.getLibri = l.Libri
+        DV.getAutori = l.Autori
+        self.navigationController?.pushViewController(DV, animated: true)
+        
+    }
+    func DeleteButton(sender: InfoTableViewCell) {
+        let cell = sender.tag
+        var l = Tbl_Info()
+        l = GetAllDataInfo.object(at: sender.tag) as! Tbl_Info
+        _ = FMDBDatabaseModel.getInstance().deleteRecode(RecoreId: l.Id)
+        
+        GetAllDataInfo = FMDBDatabaseModel.getInstance().GetAllData()
+        tblTableview.reloadData()
     }
     
     @IBAction func btnInsertTapped(_ sender: Any) {
@@ -43,6 +64,7 @@ class ShtoLibrin: UIViewController ,UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "InfoTableViewCell") as! InfoTableViewCell
+        cell.editData = self
         cell.tag = indexPath.row
         var l = Tbl_Info()
         l = GetAllDataInfo.object(at: indexPath.row) as! Tbl_Info

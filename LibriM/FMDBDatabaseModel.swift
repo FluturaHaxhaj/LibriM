@@ -45,4 +45,38 @@ class FMDBDatabaseModel: NSObject {
         sharedInstance.databese!.close()
         return itemInfo
     }
+    func updateRecode(RecoreId:Int,Libri:String,Autori:String) -> NSMutableArray {
+        sharedInstance.databese!.open()
+        let resultSet:FMResultSet! = sharedInstance.databese!.executeQuery("UPDATE Info SET Libri = ?,Autori = ? WHERE Id = ?", withArgumentsIn: [Libri,Autori,RecoreId])
+        let itemInfo:NSMutableArray = NSMutableArray ()
+        if (resultSet != nil)
+        {
+            while resultSet.next() {
+                let item:Tbl_Info = Tbl_Info()
+                item.Id = Int(resultSet.int(forColumn: "Id"))
+                item.Libri = String(resultSet.string(forColumn: "Libri")!)
+                item.Autori = String(resultSet.string(forColumn: "Autori")!)
+                itemInfo.add(item)
+            }
+        }
+        sharedInstance.databese!.close()
+        return itemInfo
+    }
+    func deleteRecode(RecoreId:Int) -> NSMutableArray {
+        sharedInstance.databese!.open()
+        let resultSet:FMResultSet! = sharedInstance.databese!.executeQuery("DELETE FROM Info WHERE Id = ?", withArgumentsIn: [RecoreId])
+        let itemInfo:NSMutableArray = NSMutableArray ()
+        if (resultSet != nil)
+        {
+            while resultSet.next() {
+                let item:Tbl_Info = Tbl_Info()
+                item.Id = Int(resultSet.int(forColumn: "Id"))
+                item.Libri = String(resultSet.string(forColumn: "Libri")!)
+                item.Autori = String(resultSet.string(forColumn: "Autori")!)
+                itemInfo.add(item)
+            }
+        }
+        sharedInstance.databese!.close()
+        return itemInfo
+    }
 }
