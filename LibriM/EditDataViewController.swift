@@ -1,5 +1,5 @@
 //
-//  InsertDataViewController.swift
+//  EditDataViewController.swift
 //  LibriM
 //
 //  Created by Flutura Haxhaj on 7/15/20.
@@ -8,14 +8,23 @@
 
 import UIKit
 
-class InsertDataViewController: UIViewController {
+class EditDataViewController: UIViewController {
     @IBOutlet weak var txtLibri: UITextField!
     @IBOutlet weak var txtAutori: UITextField!
+    
+    var getId:Int = Int()
+    var getLibri = ""
+    var getAutori = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view
+        
+        txtLibri.text! = getLibri
+        txtAutori.text! = getAutori
+    
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,21 +32,11 @@ class InsertDataViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func btnInsertDataTapped(_ sender: Any) {
-        var FMDBInfo:Tbl_Info = Tbl_Info()
-        FMDBInfo.Libri = txtLibri.text!
-        FMDBInfo.Autori = txtAutori.text!
-        
-        
-        let isInserted = FMDBDatabaseModel.getInstance().InsertData(FMDBInfo)
-        if isInserted{
-            Util.invokeAlertMethod(strTitle: "", strBody: "U shtua me sukses", delegate: nil)
-        }else
-        {
-            Util.invokeAlertMethod(strTitle: "", strBody: "Error", delegate: nil)
-        }
+
+    @IBAction func btnUpdateTapped(_ sender: Any) {
+        _ = FMDBDatabaseModel.getInstance().updateRecode(RecoreId: getId, Libri: txtLibri.text!,Autori: txtAutori.text!)
+        Util.invokeAlertMethod(strTitle: "", strBody: "U ndryshua !!", delegate: nil)
     }
-    
     /*
     // MARK: - Navigation
 

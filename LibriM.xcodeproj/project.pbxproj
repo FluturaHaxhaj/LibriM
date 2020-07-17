@@ -38,6 +38,7 @@
 		886EF3AE24BF8077007D36D8 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 886EF3AD24BF8077007D36D8 /* libsqlite3.0.tbd */; };
 		886EF3B124BF83C8007D36D8 /* sql.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 886EF3B024BF83C7007D36D8 /* sql.sqlite */; };
 		886EF3B324BF845F007D36D8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886EF3B224BF845F007D36D8 /* Util.swift */; };
+		88AB538E24BFE690001AB07A /* EditDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AB538D24BFE690001AB07A /* EditDataViewController.swift */; };
 		88AF428724BF8B0E0005DF19 /* InsertDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF428624BF8B0E0005DF19 /* InsertDataViewController.swift */; };
 		88AF428924BF8D290005DF19 /* Tbl_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF428824BF8D290005DF19 /* Tbl_Info.swift */; };
 		88AF428B24BF8E350005DF19 /* FMDBDatabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF428A24BF8E350005DF19 /* FMDBDatabaseModel.swift */; };
@@ -85,6 +86,7 @@
 		886EF3AD24BF8077007D36D8 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		886EF3B024BF83C7007D36D8 /* sql.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = sql.sqlite; sourceTree = "<group>"; };
 		886EF3B224BF845F007D36D8 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		88AB538D24BFE690001AB07A /* EditDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDataViewController.swift; sourceTree = "<group>"; };
 		88AF428624BF8B0E0005DF19 /* InsertDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertDataViewController.swift; sourceTree = "<group>"; };
 		88AF428824BF8D290005DF19 /* Tbl_Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tbl_Info.swift; sourceTree = "<group>"; };
 		88AF428A24BF8E350005DF19 /* FMDBDatabaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDBDatabaseModel.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				886EF3B224BF845F007D36D8 /* Util.swift */,
 				884421EC24BFA05A007274CA /* ShtoLibrin.swift */,
 				88AF428824BF8D290005DF19 /* Tbl_Info.swift */,
+				88AB538D24BFE690001AB07A /* EditDataViewController.swift */,
 				88AF428624BF8B0E0005DF19 /* InsertDataViewController.swift */,
 				88ECE4D724BFC9EF0012EA2F /* InfoTableViewCell.swift */,
 				88AF428A24BF8E350005DF19 /* FMDBDatabaseModel.swift */,
@@ -299,6 +302,7 @@
 				886EF3A524BF7EC7007D36D8 /* FMResultSet.m in Sources */,
 				886EF3B324BF845F007D36D8 /* Util.swift in Sources */,
 				886EF3A324BF7EC7007D36D8 /* FMDatabasePool.m in Sources */,
+				88AB538E24BFE690001AB07A /* EditDataViewController.swift in Sources */,
 				6A50B64624B6559B00C208E9 /* AppDelegate.swift in Sources */,
 				88AF428924BF8D290005DF19 /* Tbl_Info.swift in Sources */,
 				886EF3A224BF7EC7007D36D8 /* FMDatabaseAdditions.m in Sources */,
